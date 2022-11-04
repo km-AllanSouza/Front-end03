@@ -1,0 +1,37 @@
+.card-lateral {
+    width: 100%;
+    display: flex;
+    border-radius: 12px;
+    background-color: #151515;
+  
+    .card-lateral-image {
+      width: 50%;
+      display: block;
+      border-radius: 12px;
+      padding-top: 10px;
+
+    }
+  
+    .card-lateral-text {
+      width: 75%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px;
+    }
+  
+    .card-lateral-title {
+      font-size: 1.5rem;
+    }
+  
+    .card-lateral-platforms, .card-lateral-categories {
+      color: #ffffffa2;
+    }
+  
+    .card-lateral-price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ff7a00cc;
+    }
+  
+  }
